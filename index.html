@@ -4,7 +4,13 @@
     <title>Programa Festes del Carme </title>
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app">
+
+        <div v-for="pagina in pagines">
+            {{ pagina }}
+        </div>
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
     <script>
         const getFullYear = () => new Date().getFullYear()
@@ -14,11 +20,41 @@
         }
         new Vue({
             el: '#app',
+            data: {
+                pagines: ''
+            },
             created: async function () {
 
                 const data = await fetch('/resources/Anunciants2019/anunciants-2019.json')
                 const anunciants = await data.json()
                 console.log(anunciants)
+                anunciants.shift()
+                
+                const maxPagina = 100
+
+                this.pagines = anunciants.reduce((prev, curr) => {
+
+                    if (prev.length > 0) {
+
+                        const totalPaginaActual = prev.reduce((total, anunciantActual) => total + parseInt(anunciantActual.C), 0)
+                        console.log(totalPaginaActual)
+                        if (totalPaginaActual + parseInt(curr.C) < 100) prev.push(curr)
+                        else {
+
+                            
+
+                        }
+
+                    } else {
+
+                        prev.push(curr)
+
+                    }
+
+                    return prev
+
+                }, [])
+
             }
         })
     </script>
