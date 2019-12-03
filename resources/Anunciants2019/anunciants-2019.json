@@ -1,0 +1,552 @@
+[
+ {
+   "A": "ANUNCIANT",
+   "B": "RESPONSABLE",
+   "C": "PREU"
+ },
+ {
+   "A": "CAFETERIA ALHAMBRA",
+   "B": "ARROM",
+   "C": "40"
+ },
+ {
+   "A": "AGUAS ESTABLIMENTS",
+   "B": "ARROM",
+   "C": "100"
+ },
+ {
+   "A": "SOCIETAT COLOMBICULTURA",
+   "B": "ARROM",
+   "C": "40"
+ },
+ {
+   "A": "FUSTERIA ARROM",
+   "B": "ARROM",
+   "C": "40"
+ },
+ {
+   "A": "CB SA CABANETA",
+   "B": "TRAVE",
+   "C": "40"
+ },
+ {
+   "A": "ESPAI BELLESA MAYRATA",
+   "B": "TRAVE",
+   "C": "40"
+ },
+ {
+   "A": "ELS FERRERETS",
+   "B": "TRAVE",
+   "C": "40"
+ },
+ {
+   "A": "VINCLES",
+   "B": "TRAVE",
+   "C": "40"
+ },
+ {
+   "A": "LITTLE OAKS NURSERY",
+   "B": "TRAVE",
+   "C": "60"
+ },
+ {
+   "A": "CAFÈ CAN JAUME",
+   "B": "TRAVE",
+   "C": "80"
+ },
+ {
+   "A": "CONSTRUIM BÉ",
+   "B": "TRAVE",
+   "C": "40"
+ },
+ {
+   "A": "BOTIGA RURAL SON CAULELLES",
+   "B": "TRAVE",
+   "C": "80"
+ },
+ {
+   "A": "AUTO OLMO",
+   "B": "TRAVE",
+   "C": "60"
+ },
+ {
+   "A": "BUFETE SIQUIER ABOGADOS",
+   "B": "CHENDO",
+   "C": "60"
+ },
+ {
+   "A": "TALLERS TOMEU JOAN",
+   "B": "CHENDO",
+   "C": "40"
+ },
+ {
+   "A": "BAR MIGJORN",
+   "B": "CHENDO",
+   "C": "60"
+ },
+ {
+   "A": "PÒRTOL FC",
+   "B": "CHENDO",
+   "C": "60"
+ },
+ {
+   "A": "CAN PEP",
+   "B": "CHENDO",
+   "C": "40"
+ },
+ {
+   "A": "ES MAGATZEM DES FORN",
+   "B": "CRIS",
+   "C": "40"
+ },
+ {
+   "A": "TERRA ROTJA + SENALLA VERDA",
+   "B": "CRIS",
+   "C": "80"
+ },
+ {
+   "A": "CAN PINET",
+   "B": "CRIS",
+   "C": "40"
+ },
+ {
+   "A": "CATI AMENGUAL PERRUQUERIA",
+   "B": "CRIS",
+   "C": "40"
+ },
+ {
+   "A": "ESPAI TERRA",
+   "B": "CRIS",
+   "C": "40"
+ },
+ {
+   "A": "PAPERERIA S’ESTEL",
+   "B": "CRIS",
+   "C": "40"
+ },
+ {
+   "A": "BAR SA TROBADA ",
+   "B": "CRIS",
+   "C": "60"
+ },
+ {
+   "A": "MIQUEL VADELL",
+   "B": "CRIS",
+   "C": "40"
+ },
+ {
+   "A": "MENATGE 5",
+   "B": "CRIS",
+   "C": "40"
+ },
+ {
+   "A": "CONSTRUCCIONS SERRA GARAU",
+   "B": "TANIA",
+   "C": "40"
+ },
+ {
+   "A": "BONA PINTA",
+   "B": "TANIA",
+   "C": "40"
+ },
+ {
+   "A": "CONSELL DE MALLORCA",
+   "B": "TANIA",
+   "C": "40"
+ },
+ {
+   "A": "SEBASTIÀ MULET CAÑELLAS",
+   "B": "TANIA",
+   "C": "60"
+ },
+ {
+   "A": "SOCA-ARREL",
+   "B": "TANIA",
+   "C": "40"
+ },
+ {
+   "A": "MAJOR 82",
+   "B": "TANIA",
+   "C": "80"
+ },
+ {
+   "A": "APOTECARIA PÒRTOL",
+   "B": "JOSE",
+   "C": "200"
+ },
+ {
+   "A": "CAN GARAU",
+   "B": "JOSE",
+   "C": "80"
+ },
+ {
+   "A": "CLÍNICA VETERINÀRIA ST MARÇAL",
+   "B": "JOSE",
+   "C": "40"
+ },
+ {
+   "A": "FRIALSA",
+   "B": "JOSE",
+   "C": "80"
+ },
+ {
+   "A": "MARTÍ AMENGUAL",
+   "B": "JOSE",
+   "C": "100"
+ },
+ {
+   "A": "SITOS BAR",
+   "B": "JOSE",
+   "C": "40"
+ },
+ {
+   "A": "ASSESSORIA RAMIS",
+   "B": "JULI",
+   "C": "60"
+ },
+ {
+   "A": "ART PERRUQUERIA",
+   "B": "JULI",
+   "C": "40"
+ },
+ {
+   "A": "BAR SA CABANETA",
+   "B": "JULI",
+   "C": "40"
+ },
+ {
+   "A": "CA NA PEPA",
+   "B": "JULI",
+   "C": "40"
+ },
+ {
+   "A": "LIMONCELLO",
+   "B": "JULI",
+   "C": "40"
+ },
+ {
+   "A": "OLLERIA CAN VENT",
+   "B": "JULI",
+   "C": "40"
+ },
+ {
+   "A": "SOCIETAT CAÇADORS DE PÒRTOL",
+   "B": "JULI",
+   "C": "60"
+ },
+ {
+   "A": "SA SOMADA",
+   "B": "PARETS",
+   "C": "40"
+ },
+ {
+   "A": "CRISTALERIA SANT MARÇAL",
+   "B": "PARETS",
+   "C": "40"
+ },
+ {
+   "A": "CAFETERIA CAN CHUS",
+   "B": "PARETS",
+   "C": "40"
+ },
+ {
+   "A": "MATEU MOTORS",
+   "B": "PARETS",
+   "C": "80"
+ },
+ {
+   "A": "CAN MATEU MATERIALS CONSTRUCCIÓ",
+   "B": "PARETS",
+   "C": "100"
+ },
+ {
+   "A": "CAN XIC",
+   "B": "PARETS",
+   "C": "80"
+ },
+ {
+   "A": "CONSTRUCCION RRAM",
+   "B": "PARETS",
+   "C": "100"
+ },
+ {
+   "A": "FERROCOLAT",
+   "B": "PARETS",
+   "C": "100"
+ },
+ {
+   "A": "GRUP UCC",
+   "B": "PARETS",
+   "C": "300"
+ },
+ {
+   "A": "AUTOESCOLA KALET",
+   "B": "PEDRO",
+   "C": "60"
+ },
+ {
+   "A": "COFRARIA MARE DE DÉU DEL CARME",
+   "B": "PEDRO",
+   "C": "100"
+ },
+ {
+   "A": "ENERGIAVITAL",
+   "B": "PEDRO",
+   "C": "100"
+ },
+ {
+   "A": "GRUP REBASSA",
+   "B": "PEDRO",
+   "C": "60"
+ },
+ {
+   "A": "ASSOCIACIÓ VEÏNATS DE PÒRTOL",
+   "B": "PEDRO",
+   "C": "40"
+ },
+ {
+   "A": "ASSOCIACIÓ REIS D’ORIENT PÒRTOL",
+   "B": "PEDRO",
+   "C": "40"
+ },
+ {
+   "A": "PERRUQUERIA CANTONA",
+   "B": "PEDRO",
+   "C": "60"
+ },
+ {
+   "A": "CONSTRUCCIONS PEP I TOLO",
+   "B": "PEDRO",
+   "C": "60"
+ },
+ {
+   "A": "AMENGUAL AQUÍ – CALET ARQUITECTES",
+   "B": "RAFA",
+   "C": "60"
+ },
+ {
+   "A": "JARDINS CJV",
+   "B": "RAFA",
+   "C": "200"
+ },
+ {
+   "A": "CAFETERIA ANTIC TROTÓN",
+   "B": "RAFA",
+   "C": "60"
+ },
+ {
+   "A": "COLONETTE GRANIZADOS",
+   "B": "RAFA",
+   "C": "200"
+ },
+ {
+   "A": "ES GLOP",
+   "B": "RAFA",
+   "C": "40"
+ },
+ {
+   "A": "JORDI SBERT",
+   "B": "RAFA",
+   "C": "60"
+ },
+ {
+   "A": "PEP RAMIS INSTAL·LACIONS",
+   "B": "RAFA",
+   "C": "40"
+ },
+ {
+   "A": "PISCINES JM RUSTIC",
+   "B": "RAFA",
+   "C": "40"
+ },
+ {
+   "A": "SPORTING ST MARÇAL",
+   "B": "RAFA",
+   "C": "100"
+ },
+ {
+   "A": "VERDERA",
+   "B": "RAFA",
+   "C": "40"
+ },
+ {
+   "A": "CAS TORD + PEP MASCARÓ",
+   "B": "RAFA",
+   "C": "350"
+ },
+ {
+   "A": "MULTISERVICIOS MOYÀ",
+   "B": "RAFA",
+   "C": "100"
+ },
+ {
+   "A": "BALEARDART",
+   "B": "RAMIS",
+   "C": "40"
+ },
+ {
+   "A": "PODES I TALES TOMEU CATALÀ",
+   "B": "RAMIS",
+   "C": "100"
+ },
+ {
+   "A": "CAFÈ DE PÒRTOL (PRATS)",
+   "B": "RAMIS",
+   "C": "100"
+ },
+ {
+   "A": "ES RACÓ DE PÒRTOL",
+   "B": "RAMIS",
+   "C": "40"
+ },
+ {
+   "A": "PERRUQUERIA MARAZZA",
+   "B": "RAMIS",
+   "C": "40"
+ },
+ {
+   "A": "PERRUQUERIA S’IMATGE",
+   "B": "COLL",
+   "C": "40"
+ },
+ {
+   "A": "Mª MAGDALENA AMENGUAL MARTORELL",
+   "B": "COLL",
+   "C": "40"
+ },
+ {
+   "A": "CA SES NINES ",
+   "B": "COLL",
+   "C": "60"
+ },
+ {
+   "A": "DE BLANC",
+   "B": "COLL",
+   "C": "40"
+ },
+ {
+   "A": "ESTRUCTURAS METALICAS CAÑELLAS",
+   "B": "COLL",
+   "C": "200"
+ },
+ {
+   "A": "GERMANS BONET PORTES",
+   "B": "COLL",
+   "C": "40"
+ },
+ {
+   "A": "ES MERCA",
+   "B": "COLL",
+   "C": "200"
+ },
+ {
+   "A": "CLUB 2T MOTORS",
+   "B": "COLL",
+   "C": "40"
+ },
+ {
+   "A": "GESTORIA ANTONIO JUAN AMENGUAL ",
+   "B": "COLL",
+   "C": "40"
+ },
+ {
+   "A": "CV PÒRTOL",
+   "B": "COLL",
+   "C": "100"
+ },
+ {
+   "A": "RAFEL I XISCO PINTORS",
+   "B": "COLL",
+   "C": "60"
+ },
+ {
+   "A": "TÖL CERAMICS WORKS",
+   "B": "COLL",
+   "C": "60"
+ },
+ {
+   "A": "TALLER SANT MARÇAL",
+   "B": "COLL",
+   "C": "40"
+ },
+ {
+   "A": "REFLEXOLOGIA PODAL JUDITH VICH",
+   "B": "COLL",
+   "C": "40"
+ },
+ {
+   "A": "JOAN MOTOCAR",
+   "B": "TOFOL",
+   "C": "80"
+ },
+ {
+   "A": "XISCO NADAL VERDEROL",
+   "B": "TOFOL",
+   "C": "80"
+ },
+ {
+   "A": "GERRERIA PERE COLL",
+   "B": "TOFOL",
+   "C": "40"
+ },
+ {
+   "A": "CLÍNICA VETERINÀRIA PÒRTOL",
+   "B": "TOFOL",
+   "C": "40"
+ },
+ {
+   "A": "L’ALBELLO",
+   "B": "TOFOL",
+   "C": "40"
+ },
+ {
+   "A": "OLLERIA CAN BERNADÍ",
+   "B": "TOFOL",
+   "C": "40"
+ },
+ {
+   "A": "OLLERIA CAS CONONGE",
+   "B": "TOFOL",
+   "C": "40"
+ },
+ {
+   "A": "FISIOTERAPIA TONI SIQUIER",
+   "B": "TOFOL",
+   "C": "40"
+ },
+ {
+   "A": "SA ROCA LLISA 26",
+   "B": "TOFOL",
+   "C": "40"
+ },
+ {
+   "A": "SEBASTIÀ CARBURACIÓ",
+   "B": "TOFOL",
+   "C": "40"
+ },
+ {
+   "A": "TAPISSERIES TORRELLÓ CATALÀ",
+   "B": "TOFOL",
+   "C": "40"
+ },
+ {
+   "A": "PROTECCIÓ CIVIL MARRATXÍ",
+   "B": "",
+   "C": "100"
+ },
+ {
+   "A": "TOT ESPECTACLE",
+   "B": "",
+   "C": "60"
+ },
+ {
+   "A": "CAFETERIA CAN RAMON",
+   "B": "TOFOL",
+   "C": "40"
+ },
+ {
+   "A": "CONSTRUCCION J.C",
+   "B": "COLL",
+   "C": "40"
+ }
+]

@@ -4,6 +4,7 @@
     <title>Programa Festes del Carme </title>
 </head>
 <body>
+    <div id="app"></div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
     <script>
         const getFullYear = () => new Date().getFullYear()
@@ -11,6 +12,15 @@
         document.body.onload = function () {
             document.title += (' ' + getFullYear())
         }
+        new Vue({
+            el: '#app',
+            created: async function () {
+
+                const data = await fetch('/resources/Anunciants2019/anunciants-2019.json')
+                const anunciants = await data.json()
+                console.log(anunciants)
+            }
+        })
     </script>
 </body>
 </html>
