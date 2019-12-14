@@ -34,7 +34,7 @@
                     let preu = parseInt(anunciant.C);
 
                     if(preu >= 100){
-                        this.fd.push(anunciant);
+                        this.fd.push([anunciant]);
                     }
                     else if(this.pagina.length == 0){
                         this.pagina.push(anunciant);
@@ -83,7 +83,7 @@
                         }
                         else{
 
-                            if(this.pagina.length == 1 && num80 == 0 && num60 == 0 )
+                            if(this.pagina.length == 1 && num40 > 0 )
                                 this.pagina.push(anunciant);
                             else if (this.pagina.length == 1 && num60 != 0 && preu != 80)
                                 this.pagina.push(anunciant);
@@ -93,11 +93,36 @@
                             else if (this.pagina.length == 2 && num60 == 0 && preu != 80) {
                                 this.pagina.push(anunciant);
                             }
-                            else if(this.pagina.length == 3 && num40 == 3 && preu == 40){
+                            else if (this.pagina.length == 2 && num60 == 1 && num40 == 1 && preu == 40) {
+                                this.pagina.push(anunciant);
+                            }
+                            else if(this.pagina.length == 3 &&  preu == 40){
                                 this.pagina.push(anunciant);
                             }
                             else{
-                                this.pending.push(anunciant);
+                                this.pending.push(anunciant)
+                                const pendingIndex = this.pending.findIndex(pendingAnunciant => {
+                                    if(this.pagina.length == 1 && num40 > 0 )
+                                        this.pagina.push(anunciant);
+                                    else if (this.pagina.length == 1 && num60 != 0 && parseInt(pendingAnunciant.C) != 80)
+                                        this.pagina.push(anunciant);
+                                    else if (this.pagina.length == 1 && num80 != 0 && parseInt(pendingAnunciant.C) == 40) {
+                                        this.pagina.push(anunciant);
+                                    }
+                                    else if (this.pagina.length == 2 && num60 == 0 && parseInt(pendingAnunciant.C) != 80) {
+                                        this.pagina.push(anunciant);
+                                    }
+                                    else if (this.pagina.length == 2 && num60 == 1 && num40 == 1 && parseInt(pendingAnunciant.C) == 40) {
+                                        this.pagina.push(anunciant);
+                                    }
+                                    else if(this.pagina.length == 3 &&  parseInt(pendingAnunciant.C) == 40){
+                                        this.pagina.push(anunciant);
+                                    }
+                                })
+                                if (pendingIndex !== -1) {
+                                    this.pagina.push(this.pending[pendingIndex])
+                                    this.pending.splice(pendingIndex)
+                                }
                             }
                         
                         }
@@ -117,11 +142,10 @@
 
                     console.log("entro")
 
-                    if(this.pending.length != 0){
-                        this.pending.forEach(pending => {
-                            this.algo(pending);
-                        })
-                    }
+                    /*if(this.pending.length > 0){
+                        this.pending.forEach(this.algo)
+                        
+                    }*/
                     
                     
 
@@ -130,7 +154,7 @@
 
                 });
 
-                const maxtpagina = 100
+                /*const maxtpagina = 100
 
                 this.pagines = anunciants.reduce((prev, curr) => {
 
@@ -157,8 +181,13 @@
 
                     return prev
 
-                }, [])
+                }, [])*/
+                console.log(
 
+                    this.fd.reduce((prev, curr) => prev + curr.length, 0),
+                    this.fd
+
+                )
             }
         })
     </script>
