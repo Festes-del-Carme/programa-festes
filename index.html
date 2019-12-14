@@ -21,7 +21,90 @@
         new Vue({
             el: '#app',
             data: {
-                pagines: ''
+                pagines: '',
+                pagina: [],
+                fd: [],
+                pending: []
+            },
+            methods: {
+                algo: function(anunciant){
+
+                    console.log(anunciant);
+
+                    let preu = parseInt(anunciant.C);
+
+                    if(preu >= 100){
+                        this.fd.push(anunciant);
+                    }
+                    else if(this.pagina.length == 0){
+                        this.pagina.push(anunciant);
+                    }
+                    else{
+                        console.log("else")
+                        let num40 = 0;
+                        let num60 = 0;
+                        let num80 = 0;
+
+                        this.pagina.forEach(element => {
+                            if(element.C == "40")
+                                num40++;
+                            else if(element.C == "60")
+                                num60++;
+                            else if(element.C == "80")
+                                num80++;
+                        })
+
+                        console.log("preu "+ preu)
+                        console.log("num40 " + num40);
+                        console.log("num60 " + num60)
+                        console.log("num80 "+num80);
+
+                        if(num40 == 4){
+                            this.fd.push(this.pagina)
+                            console.log("entro 40")
+                            this.pagina = []
+                            this.pagina.push(anunciant);
+                            
+                        }
+                        else if(num60 == 2){
+                            this.fd.push(this.pagina);
+                            this.pagina = []
+                            this.pagina.push(anunciant);
+                        }
+                        else if(num40 == 2 && num60 == 1){
+                            this.fd.push(this.pagina);
+                            this.pagina = []
+                            this.pagina.push(anunciant);
+                        }
+                        else if(num40 == 1 && num80 == 1){
+                            this.fd.push(this.pagina);
+                            this.pagina = []
+                            this.pagina.push(anunciant);
+                        }
+                        else{
+
+                            if(this.pagina.length == 1 && num80 == 0 && num60 == 0 )
+                                this.pagina.push(anunciant);
+                            else if (this.pagina.length == 1 && num60 != 0 && preu != 80)
+                                this.pagina.push(anunciant);
+                            else if (this.pagina.length == 1 && num80 != 0 && preu == 40) {
+                                this.pagina.push(anunciant);
+                            }
+                            else if (this.pagina.length == 2 && num60 == 0 && preu != 80) {
+                                this.pagina.push(anunciant);
+                            }
+                            else if(this.pagina.length == 3 && num40 == 3 && preu == 40){
+                                this.pagina.push(anunciant);
+                            }
+                            else{
+                                this.pending.push(anunciant);
+                            }
+                        
+                        }
+                    }
+
+
+                }
             },
             created: async function () {
 
@@ -29,16 +112,37 @@
                 const anunciants = await data.json()
                 console.log(anunciants)
                 anunciants.shift()
-                
-                const maxPagina = 100
+
+                anunciants.forEach(anunciant => {
+
+                    console.log("entro")
+
+                    if(this.pending.length != 0){
+                        this.pending.forEach(pending => {
+                            this.algo(pending);
+                        })
+                    }
+                    
+                    
+
+                    this.algo(anunciant);
+                    
+
+                });
+
+                const maxtpagina = 100
 
                 this.pagines = anunciants.reduce((prev, curr) => {
 
                     if (prev.length > 0) {
 
-                        const totalPaginaActual = prev.reduce((total, anunciantActual) => total + parseInt(anunciantActual.C), 0)
-                        console.log(totalPaginaActual)
-                        if (totalPaginaActual + parseInt(curr.C) < 100) prev.push(curr)
+                        const totalpaginaActual = prev.reduce((total, anunciantActual) => total + parseInt(anunciantActual.C), 0)
+                        console.log(totalpaginaActual)
+                        if (totalpaginaActual + parseInt(curr.C) < 100){
+                            prev.push(curr)
+                            
+                        
+                        }
                         else {
 
                             
