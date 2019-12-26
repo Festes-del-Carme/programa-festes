@@ -2,551 +2,778 @@
  {
    "A": "ANUNCIANT",
    "B": "RESPONSABLE",
-   "C": "PREU"
+   "C": "PREU",
+   "D": "CONFIRMAT",
+   "E": "URL"
  },
  {
    "A": "CAFETERIA ALHAMBRA",
    "B": "ARROM",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/cafeteria_alhambra.jpg"
  },
  {
    "A": "AGUAS ESTABLIMENTS",
    "B": "ARROM",
-   "C": "100"
+   "C": "100",
+   "D": "",
+   "E": "resources/Logos/Pasats/aguas_establiments.jpg"
  },
  {
    "A": "SOCIETAT COLOMBICULTURA",
    "B": "ARROM",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/societat_columbicultora.jpg"
  },
  {
    "A": "FUSTERIA ARROM",
    "B": "ARROM",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/fusteria_arrom_3.jpg"
  },
  {
    "A": "CB SA CABANETA",
    "B": "TRAVE",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/cb_sa_cabaneta.jpg"
  },
  {
    "A": "ESPAI BELLESA MAYRATA",
    "B": "TRAVE",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/espai_bellesa_mayrata.jpg"
  },
  {
    "A": "ELS FERRERETS",
    "B": "TRAVE",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/els_ferrerets.jpg"
  },
  {
    "A": "VINCLES",
    "B": "TRAVE",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/vincles.jpg"
  },
  {
    "A": "LITTLE OAKS NURSERY",
    "B": "TRAVE",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/little_oaks.jpg"
  },
  {
    "A": "CAFÈ CAN JAUME",
    "B": "TRAVE",
-   "C": "80"
+   "C": "80",
+   "D": "",
+   "E": "resources/Logos/Pasats/cafe_can_jaume.jpg"
  },
  {
    "A": "CONSTRUIM BÉ",
    "B": "TRAVE",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/construim_be.jpg"
  },
  {
    "A": "BOTIGA RURAL SON CAULELLES",
    "B": "TRAVE",
-   "C": "80"
+   "C": "80",
+   "D": "",
+   "E": "resources/Logos/Pasats/son_caulelles.jpg"
  },
  {
    "A": "AUTO OLMO",
    "B": "TRAVE",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/AutosOlmo.png"
  },
  {
    "A": "BUFETE SIQUIER ABOGADOS",
    "B": "CHENDO",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/bufete_siquier_abogados.jpg"
  },
  {
    "A": "TALLERS TOMEU JOAN",
    "B": "CHENDO",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/"
  },
  {
    "A": "BAR MIGJORN",
    "B": "CHENDO",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/bar_migjorn.jpg"
  },
  {
    "A": "PÒRTOL FC",
    "B": "CHENDO",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/portol_fc.jpg"
  },
  {
    "A": "CAN PEP",
    "B": "CHENDO",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/can_pep.jpg"
  },
  {
    "A": "ES MAGATZEM DES FORN",
    "B": "CRIS",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/es_magatzem_des_forn.jpg"
  },
  {
-   "A": "TERRA ROTJA + SENALLA VERDA",
+   "A": "TERRA ROTJA SENALLA VERDA",
    "B": "CRIS",
-   "C": "80"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/terra_rotja.jpg"
  },
  {
    "A": "CAN PINET",
    "B": "CRIS",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/can_pinet.jpg"
  },
  {
    "A": "CATI AMENGUAL PERRUQUERIA",
    "B": "CRIS",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/cati_amengual_perruqueria.jpg"
  },
  {
    "A": "ESPAI TERRA",
    "B": "CRIS",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/espaiterra_herboristeria.jpg"
  },
  {
    "A": "PAPERERIA S’ESTEL",
    "B": "CRIS",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/papereria_sestel.jpg"
  },
  {
    "A": "BAR SA TROBADA ",
    "B": "CRIS",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/SaTrobada.png"
  },
  {
    "A": "MIQUEL VADELL",
    "B": "CRIS",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/miquel_vadell.jpg"
  },
  {
    "A": "MENATGE 5",
    "B": "CRIS",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/Menatge5.png"
  },
  {
    "A": "CONSTRUCCIONS SERRA GARAU",
    "B": "TANIA",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/construccions_serra_garau.jpg"
  },
  {
    "A": "BONA PINTA",
    "B": "TANIA",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/bona_pinta.jpg"
  },
  {
    "A": "CONSELL DE MALLORCA",
    "B": "TANIA",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/consell_de_mallorca.jpg"
  },
  {
    "A": "SEBASTIÀ MULET CAÑELLAS",
    "B": "TANIA",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/sebastia_mulet_canyellas.jpg"
  },
  {
    "A": "SOCA-ARREL",
    "B": "TANIA",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/soca_arrel.jpg"
  },
  {
    "A": "MAJOR 82",
    "B": "TANIA",
-   "C": "80"
+   "C": "80",
+   "D": "",
+   "E": "resources/Logos/Pasats/major_82_espai_musica.jpg"
  },
  {
    "A": "APOTECARIA PÒRTOL",
    "B": "JOSE",
-   "C": "200"
+   "C": "200",
+   "D": "",
+   "E": "resources/Logos/Pasats/apotecaria_portol.jpg"
  },
  {
    "A": "CAN GARAU",
    "B": "JOSE",
-   "C": "80"
+   "C": "80",
+   "D": "",
+   "E": "resources/Logos/Pasats/forn_garau.jpg"
  },
  {
    "A": "CLÍNICA VETERINÀRIA ST MARÇAL",
    "B": "JOSE",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/clinica_veterinaria_sant_marcal.jpg"
  },
  {
    "A": "FRIALSA",
    "B": "JOSE",
-   "C": "80"
+   "C": "80",
+   "D": "",
+   "E": "resources/Logos/Pasats/frialsa.jpg"
  },
  {
    "A": "MARTÍ AMENGUAL",
    "B": "JOSE",
-   "C": "100"
+   "C": "100",
+   "D": "",
+   "E": "resources/Logos/Pasats/marti_amengual_frau.jpg"
  },
  {
    "A": "SITOS BAR",
    "B": "JOSE",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/sitos_bar.jpg"
  },
  {
    "A": "ASSESSORIA RAMIS",
    "B": "JULI",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/assessoria_ramis.jpg"
  },
  {
    "A": "ART PERRUQUERIA",
    "B": "JULI",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/art_perruqueria.jpg"
  },
  {
    "A": "BAR SA CABANETA",
    "B": "JULI",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/BarSaCabaneta.png"
  },
  {
    "A": "CA NA PEPA",
    "B": "JULI",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/suma_ca_na_pepa.jpg"
  },
  {
    "A": "LIMONCELLO",
    "B": "JULI",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/limoncello.jpg"
  },
  {
    "A": "OLLERIA CAN VENT",
    "B": "JULI",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/olleria_can_vent.jpg"
  },
  {
    "A": "SOCIETAT CAÇADORS DE PÒRTOL",
    "B": "JULI",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/societat_cacadors_portol.jpg"
  },
  {
    "A": "SA SOMADA",
    "B": "PARETS",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/sa_somada.jpg"
  },
  {
    "A": "CRISTALERIA SANT MARÇAL",
    "B": "PARETS",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/cristaleria_sant_marcal.jpg"
  },
  {
    "A": "CAFETERIA CAN CHUS",
    "B": "PARETS",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/can_chus.jpg"
  },
  {
    "A": "MATEU MOTORS",
    "B": "PARETS",
-   "C": "80"
+   "C": "80",
+   "D": "",
+   "E": "resources/Logos/Pasats/mateu_motors.jpg"
  },
  {
    "A": "CAN MATEU MATERIALS CONSTRUCCIÓ",
    "B": "PARETS",
-   "C": "100"
+   "C": "100",
+   "D": "",
+   "E": "resources/Logos/Pasats/materials_construccio_can_mateu.jpg"
  },
  {
    "A": "CAN XIC",
    "B": "PARETS",
-   "C": "80"
+   "C": "80",
+   "D": "",
+   "E": "resources/Logos/Pasats/can_xic.jpg"
  },
  {
    "A": "CONSTRUCCION RRAM",
    "B": "PARETS",
-   "C": "100"
+   "C": "100",
+   "D": "",
+   "E": "resources/Logos/Pasats/contruccions_rram.jpg"
  },
  {
    "A": "FERROCOLAT",
    "B": "PARETS",
-   "C": "100"
+   "C": "100",
+   "D": "",
+   "E": "resources/Logos/Pasats/ferrocolat.jpg"
  },
  {
    "A": "GRUP UCC",
    "B": "PARETS",
-   "C": "300"
+   "C": "300",
+   "D": "",
+   "E": "resources/Logos/Pasats/Ucc.png"
  },
  {
    "A": "AUTOESCOLA KALET",
    "B": "PEDRO",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/autoescola_kalet.jpg"
  },
  {
    "A": "COFRARIA MARE DE DÉU DEL CARME",
    "B": "PEDRO",
-   "C": "100"
+   "C": "100",
+   "D": "",
+   "E": "resources/Logos/Pasats/confraria_mare_de_deu_del_carme.jpg"
  },
  {
    "A": "ENERGIAVITAL",
    "B": "PEDRO",
-   "C": "100"
+   "C": "100",
+   "D": "",
+   "E": "resources/Logos/Pasats/energiavital.jpg"
  },
  {
    "A": "GRUP REBASSA",
    "B": "PEDRO",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/grup_rabasa.jpeg"
  },
  {
    "A": "ASSOCIACIÓ VEÏNATS DE PÒRTOL",
    "B": "PEDRO",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/associacio_la_pua_portol.png"
  },
  {
    "A": "ASSOCIACIÓ REIS D’ORIENT PÒRTOL",
    "B": "PEDRO",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/associacio_reis_de_portol.jpg"
  },
  {
    "A": "PERRUQUERIA CANTONA",
    "B": "PEDRO",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/perruqueria_cantona.jpg"
  },
  {
    "A": "CONSTRUCCIONS PEP I TOLO",
    "B": "PEDRO",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/construccions_pep_i_tolo.jpg"
  },
  {
    "A": "AMENGUAL AQUÍ – CALET ARQUITECTES",
    "B": "RAFA",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/amengual_aqui_arquitectes.jpg"
  },
  {
    "A": "JARDINS CJV",
    "B": "RAFA",
-   "C": "200"
+   "C": "200",
+   "D": "",
+   "E": "resources/Logos/Pasats/jardins_cjv.jpg"
  },
  {
    "A": "CAFETERIA ANTIC TROTÓN",
    "B": "RAFA",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/antic_troton.jpg"
  },
  {
    "A": "COLONETTE GRANIZADOS",
    "B": "RAFA",
-   "C": "200"
+   "C": "200",
+   "D": "",
+   "E": "resources/Logos/Pasats/colonette.jpg"
  },
  {
    "A": "ES GLOP",
    "B": "RAFA",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/es_glop.jpg"
  },
  {
    "A": "JORDI SBERT",
    "B": "RAFA",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/jordi_sbert.jpg"
  },
  {
    "A": "PEP RAMIS INSTAL·LACIONS",
    "B": "RAFA",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/pep_ramis.jpg"
  },
  {
    "A": "PISCINES JM RUSTIC",
    "B": "RAFA",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/piscines_jm_rustic.jpg"
  },
  {
    "A": "SPORTING ST MARÇAL",
    "B": "RAFA",
-   "C": "100"
+   "C": "100",
+   "D": "",
+   "E": "resources/Logos/Pasats/sporting_st_marcal.jpg"
  },
  {
    "A": "VERDERA",
    "B": "RAFA",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/verdera.jpg"
  },
  {
    "A": "CAS TORD + PEP MASCARÓ",
    "B": "RAFA",
-   "C": "350"
+   "C": "350",
+   "D": "",
+   "E": "resources/Logos/Pasats/cas_tord_pep_mascaró.pdf"
  },
  {
    "A": "MULTISERVICIOS MOYÀ",
    "B": "RAFA",
-   "C": "100"
+   "C": "100",
+   "D": "",
+   "E": "resources/Logos/Pasats/Multiservicios_Moya.jpg"
  },
  {
    "A": "BALEARDART",
    "B": "RAMIS",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/BalearDart.jpg"
  },
  {
    "A": "PODES I TALES TOMEU CATALÀ",
    "B": "RAMIS",
-   "C": "100"
+   "C": "100",
+   "D": "",
+   "E": "resources/Logos/Pasats/podes_i_tales.jpg"
  },
  {
    "A": "CAFÈ DE PÒRTOL (PRATS)",
    "B": "RAMIS",
-   "C": "100"
+   "C": "100",
+   "D": "",
+   "E": "resources/Logos/Pasats/cafe_portol_prats.jpg"
  },
  {
    "A": "ES RACÓ DE PÒRTOL",
    "B": "RAMIS",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/es_raco_de_portol.jpg"
  },
  {
    "A": "PERRUQUERIA MARAZZA",
    "B": "RAMIS",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/perruqueria_marazza.jpg"
  },
  {
    "A": "PERRUQUERIA S’IMATGE",
    "B": "COLL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/perruqueria_simatge.jpg"
  },
  {
    "A": "Mª MAGDALENA AMENGUAL MARTORELL",
    "B": "COLL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/maria_magdalena_amengual.jpg"
  },
  {
    "A": "CA SES NINES ",
    "B": "COLL",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/ca_ses_nines.jpg"
  },
  {
    "A": "DE BLANC",
    "B": "COLL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/de_blanc_diseño_floral.jpg"
  },
  {
    "A": "ESTRUCTURAS METALICAS CAÑELLAS",
    "B": "COLL",
-   "C": "200"
+   "C": "200",
+   "D": "",
+   "E": "resources/Logos/Pasats/estructuras_metalicas_cañellas.jpg"
  },
  {
    "A": "GERMANS BONET PORTES",
    "B": "COLL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/germans_bonet_portes_automatiques.jpg"
  },
  {
    "A": "ES MERCA",
    "B": "COLL",
-   "C": "200"
+   "C": "200",
+   "D": "",
+   "E": "resources/Logos/Pasats/es_merca.jpg"
  },
  {
    "A": "CLUB 2T MOTORS",
    "B": "COLL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/club_2t_motos.jpg"
  },
  {
    "A": "GESTORIA ANTONIO JUAN AMENGUAL ",
    "B": "COLL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/gestoria_antonio_juan.jpg"
  },
  {
    "A": "CV PÒRTOL",
    "B": "COLL",
-   "C": "100"
+   "C": "100",
+   "D": "",
+   "E": "resources/Logos/Pasats/cv_portol.jpg"
  },
  {
    "A": "RAFEL I XISCO PINTORS",
    "B": "COLL",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/rafel_i_xisco_pintures.jpg"
  },
  {
    "A": "TÖL CERAMICS WORKS",
    "B": "COLL",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/tol_ceramic_works.jpg"
  },
  {
    "A": "TALLER SANT MARÇAL",
    "B": "COLL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/taller_sant_marcal.jpg"
  },
  {
    "A": "REFLEXOLOGIA PODAL JUDITH VICH",
    "B": "COLL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/reflexologia_podal_judith_vich.jpg"
  },
  {
    "A": "JOAN MOTOCAR",
    "B": "TOFOL",
-   "C": "80"
+   "C": "80",
+   "D": "",
+   "E": "resources/Logos/Pasats/joan_motocar.jpg"
  },
  {
    "A": "XISCO NADAL VERDEROL",
    "B": "TOFOL",
-   "C": "80"
+   "C": "80",
+   "D": "",
+   "E": "resources/Logos/Pasats/xisco_verderol_reformes.jpg"
  },
  {
    "A": "GERRERIA PERE COLL",
    "B": "TOFOL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/gerreria_pere_coll.jpg"
  },
  {
    "A": "CLÍNICA VETERINÀRIA PÒRTOL",
    "B": "TOFOL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/clinica_veterinaria_portol.jpg"
  },
  {
    "A": "L’ALBELLO",
    "B": "TOFOL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/albello.jpg"
  },
  {
    "A": "OLLERIA CAN BERNADÍ",
    "B": "TOFOL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/olleria_can_bernadi.jpg"
  },
  {
    "A": "OLLERIA CAS CONONGE",
    "B": "TOFOL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/olleria_cas_canonge.jpg"
  },
  {
    "A": "FISIOTERAPIA TONI SIQUIER",
    "B": "TOFOL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/fisioterapia_toni_siquier.jpg"
  },
  {
    "A": "SA ROCA LLISA 26",
    "B": "TOFOL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/sa_roca_llisa.jpg"
  },
  {
    "A": "SEBASTIÀ CARBURACIÓ",
    "B": "TOFOL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/sebastia_carburacio.jpg"
  },
  {
    "A": "TAPISSERIES TORRELLÓ CATALÀ",
    "B": "TOFOL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/tapisseries_torrelo_catala.jpg"
  },
  {
    "A": "PROTECCIÓ CIVIL MARRATXÍ",
    "B": "",
-   "C": "100"
+   "C": "100",
+   "D": "",
+   "E": "resources/Logos/Pasats/proteccio_civil_marratxi.jpg"
  },
  {
    "A": "TOT ESPECTACLE",
    "B": "",
-   "C": "60"
+   "C": "60",
+   "D": "",
+   "E": "resources/Logos/Pasats/tot_espectacle.jpg"
  },
  {
    "A": "CAFETERIA CAN RAMON",
    "B": "TOFOL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/CafCanRamon.png"
  },
  {
    "A": "CONSTRUCCION J.C",
    "B": "COLL",
-   "C": "40"
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/Construcciones_J_C.jpg"
+ },
+ {
+   "A": "SENALLA VERDA",
+   "B": "CRIS",
+   "C": "40",
+   "D": "",
+   "E": "resources/Logos/Pasats/senalla_verda.jpg"
  }
 ]
