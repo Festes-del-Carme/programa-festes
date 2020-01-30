@@ -1,8 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@page {
+    size: A4;
+}
+
 .page-break {
     page-break-after: always;
 }
 
-.page-conainer {
-    position: relative !important;
-    display: block !important;
+.page, .page-content {
+    height: 100vh;
+}
+
+.page {
+    background: url('./resources/test//fondo-test.jpg');
+    background-size: contain;
+    margin-bottom: 2rem;
+}
+
+.page-content {
+    margin: 2rem 3rem -2rem 3rem;
+    background-color: white;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
 }

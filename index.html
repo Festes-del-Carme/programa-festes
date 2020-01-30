@@ -12,13 +12,23 @@
     <div id="app">
         <div class="container-fluid">
             <!-- Exemple pàgina buida -->
-            <div class="row page page-break page-container">
-                
+            <div class="row page page-break page-container p-0">
+                <div class="col-12 p-0">
+                    <div class="page-content">
+                        <p>
+                            test
+                        </p>
+                    </div>
+                </div>
             </div>
             <!-- Fi exemple pàgina buida -->
             <div class="row page page-break page-container" v-for="(pagina, i) in pagines" :key="i">
-                <div class="anunciant" v-for="(anunciant, j) in pagina" :key="j">
-                    <img :src="anunciant.E" class="img-fluid" alt="anunciant">
+                <div class="col-12 p-0">
+                    <div class="page-content">
+                        <div class="anunciant" v-for="(anunciant, j) in pagina" :key="j">
+                            <img :src="anunciant.E" class="img-fluid w-50"  alt="anunciant">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
