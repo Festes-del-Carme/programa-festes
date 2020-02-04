@@ -25,8 +25,8 @@
             <div class="row page page-break page-container" v-for="(pagina, i) in pagines" :key="i">
                 <div class="col-12 p-0">
                     <div class="page-content">
-                        <div class="anunciant" v-for="(anunciant, j) in pagina" :key="j">
-                            <img :src="anunciant.E" class="img-fluid w-50"  alt="anunciant">
+                        <div class="anunciant" :class="anunciant.css"  v-for="(anunciant, j) in pagina" :key="j">
+                            <img :src="anunciant.E" class="w-90 h-100 mx-auto d-block"  alt="anunciant">
                         </div>
                     </div>
                 </div>
@@ -158,27 +158,7 @@
                                 else checkPending()
 
                             }
-/*
-                            if(this.pagina.length == 1 && num40 > 0 )
-                                this.pagina.push(anunciant);
-                            else if (this.pagina.length == 1 && num60 != 0 && preu != 80)
-                                this.pagina.push(anunciant);
-                            else if (this.pagina.length == 1 && num80 != 0 && preu == 40) {
-                                this.pagina.push(anunciant);
-                            }
-                            else if (this.pagina.length == 2 && num60 == 0 && preu != 80) {
-                                this.pagina.push(anunciant);
-                            }
-                            else if (this.pagina.length == 2 && num60 == 1 && num40 == 1 && preu == 40) {
-                                this.pagina.push(anunciant);
-                            }
-                            else if(this.pagina.length == 3 &&  preu == 40){
-                                this.pagina.push(anunciant);
-                            }
-                            else{
-                                
-                            }
-                        */
+          
                         }
                     }
 
@@ -192,21 +172,6 @@
                 console.log(anunciants)
                 anunciants.shift()
 
-                /****anunciants.forEach(anunciant => {
-
-                    console.log("entro")
-
-                    if(this.pending.length > 0){
-                        this.pending.forEach(this.algo)
-                        
-                    }
-                    
-                    
-
-                    this.algo(anunciant);
-                    
-
-                });*/
 
                 this.pagines = anunciants.reduce((prev, curr) => {
                     
@@ -279,6 +244,25 @@
                     return prev
 
                 }, [])
+                .map(pagina => 
+                    pagina.map(anunciant => {
+                        switch (anunciant.C) {
+                            case '40': 
+                                anunciant.css = 'class-40' 
+                                break;
+                            case '60':
+                                anunciant.css = 'class-60'
+                                break;
+                            case '80':
+                                anunciant.css = 'class-80';
+                                break;
+                            default:
+                                anunciant.css = 'class-max'
+                                break;
+                        }
+                        return anunciant;
+                    })
+                )
                 console.log(
 
                     this.pagines.reduce((prev, curr) => prev + curr.length, 0),

@@ -28,3 +28,27 @@
     border-top-left-radius: 5rem;
     border-top-right-radius: 5rem;
 }
+.class-40 { 
+    height: calc(100vh / 4);
+    width: 100%;
+    /* background-color: blue; */
+}
+.class-60 {
+    height: calc(100vh / 2);
+    /* background-color: red; */
+}
+.class-80 {
+    height: calc(100vh - (100vh / 4));
+    /* background-color: green; */
+}
+.class-max {
+    height: 100vh;
+    /* background-color: yellow; */
+}
+.anunciant{
+    padding: 1.3rem 1rem;
+}
+.w-90{
+    width: 95%;
+
+}
