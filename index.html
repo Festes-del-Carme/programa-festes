@@ -15,18 +15,49 @@
             <div class="row page page-break page-container p-0">
                 <div class="col-12 p-0">
                     <div class="page-content">
-                        <p>
-                            test
-                        </p>
+                        <div class="logo-primera-pagina">
+                            <img src="resources/LogoFestes2019.png" class="d-block h-100 img-primera-pg mx-auto" alt="logo">
+                        </div>
+                        <div class="texte-primera-pagina">
+                            <p>
+                                Pell de gallina posa, <br>
+                                quan començam a sentir... <br>
+                                Aquell renou de paperí,<br>
+                                aquell que anuncia una cosa;<br>
+                                Un renou que no fa nosa<br>
+                                a tots els que som d’aquí.
+                            </p>
+                            <p>
+                                Venen dies...Tots de festa,<br>
+                                molts moments per compartir,<br>
+                                Ja ho sabeu! Heu de venir,<br>
+                                Pòrtol se manifesta!
+                            </p>
+                            <p>
+                                Celebracions com aquesta,<br>
+                                que és només un pic a l’any,<br>
+                                no ha estat mai cap desengany,<br>
+                                és tan sols sa nostra FESTA!!!
+                            </p>
+                            <p>
+                                Molts d’anys i bons Portolans i Portolanes!!!!
+                            </p>
+                            <p>
+                                Neus Serra
+                            </p>
+                        </div>
+                        <div class="festeros-primera-pagina">
+
+                        </div>
                     </div>
                 </div>
             </div>
             <!-- Fi exemple pàgina buida -->
             <div class="row page page-break page-container" v-for="(pagina, i) in pagines" :key="i">
                 <div class="col-12 p-0">
-                    <div class="page-content">
+                    <div class="page-content h-100">
                         <div class="anunciant" :class="anunciant.css"  v-for="(anunciant, j) in pagina" :key="j">
-                            <img :src="anunciant.E" class="w-90 h-100 mx-auto d-block"  alt="anunciant">
+                            <!-- <img :src="anunciant.E" class="w-90 h-100 mx-auto d-block"  alt="anunciant"> -->
                         </div>
                     </div>
                 </div>

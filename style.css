@@ -20,6 +20,7 @@
     background: url('./resources/test//fondo-test.jpg');
     background-size: contain;
     margin-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .page-content {
@@ -51,4 +52,28 @@
 .w-90{
     width: 95%;
 
+}
+
+.logo-primera-pagina{
+    height: 11vh;
+    margin-bottom: -2.5vh;
+    background-color: yellow;
+    
+}
+
+.img-primera-pg{
+    width: 60%;
+}
+
+ .texte-primera-pagina{
+     font-size: 2vh;
+     line-height : 2.3vh;
+    padding-left: 1.3rem;
+    height: 39vh;
+    background-color: teal;
+} 
+
+.festeros-primera-pagina{
+    height: 50vh;
+    background-color: tomato;
 }
