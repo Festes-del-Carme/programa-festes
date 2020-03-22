@@ -12,23 +12,26 @@
     page-break-after: always;
 }
 
-.page, .page-content {
+.page/*, .page-content*/ {
     height: 100vh;
 }
 
 .page {
     background: url('./resources/test//fondo-test.jpg');
     background-size: contain;
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
+    margin: 0;
 }
 
 .page-content {
-    margin: 2rem 3rem -2rem 3rem;
+    display: inline-block;
+    margin-left: 3.75vw;
+    margin-top: 1.5vh;
+    height: 97vh;
+    width: 92.25vw;
     background-color: white;
-    border-top-left-radius: 5rem;
-    border-top-right-radius: 5rem;
+    border-radius: 5rem;
 }
+
 .class-40 { 
     height: calc(100vh / 4);
     width: 100%;
@@ -46,10 +49,10 @@
     height: 100vh;
     /* background-color: yellow; */
 }
-.anunciant{
+.anunciant {
     padding: 1.3rem 1rem;
 }
-.w-90{
+.w-90 {
     width: 95%;
 
 }
