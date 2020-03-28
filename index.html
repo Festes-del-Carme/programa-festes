@@ -7,19 +7,86 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
 </head>
 <body>
     <div id="app">
         <div class="container-fluid">
-            <div class="row page page-break page-container" v-for="(pagina, i) in pagines" :key="i">
-                <div class="col-12 p-0 h-100">
-                    <div class="page-content">
-                        <div class="anunciant" :class="anunciant.css"  v-for="(anunciant, j) in pagina" :key="j">
-                            <!--<img :src="anunciant.E" class="w-50 h-50"  alt="anunciant">-->
+                <div class="row page page-break page-container">
+                    <div class="col-12 p-0 h-100">
+        
+                        <div class="page-content">
+                            <div class="logo-primera-pagina">
+                                <img src="/resources/LogoFestes2019.png" class="img-primera-pg w-90 h-100 mx-auto d-block" alt="logo primera pagina" >
+                            </div>
+                            <div class="texte-primera-pagina">
+                                Pell de gallina posa,</br>
+                                quan comença a sentir...</br>
+                                Aquell renou de paperí,</br>
+                                aquell que anuncia una cosa;</br>
+                                Un senou que no fa nosa</br>
+                                a tots els que som d'aqui.</br>
+                                </br>
+                                Venen dies...Tots de festa,</br>
+                                molts de moments per compartir,</br>
+                                Ja ho sabeu! Heu de venir,</br>
+                                Pòrtol se manifesta!</br>
+                                </br>
+                                Celebracions com aquesta,</br>
+                                que és només un pic a l'any,</br>
+                                no ha estat mai cap desengany,</br>
+                                és tan sols sa nostra FESTA!!!</br>
+                                </br>
+                                Molts d'anys i bons Portolans i Portolanes!!!</br>
+                                </br>
+                                Neus Serra
+                            </div>
+                        
+                            <div class="festeros-primera-pagina">
+                                <div class="row linea-festeros">
+                                    <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/cristina.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+                                    <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/juli.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+                                    <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/llorenç.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+                                </div>
+                                <div class="row linea-festeros">
+                                        <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/cristina.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+                                        <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/juli.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+                                        <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/llorenç.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+
+                                </div>
+                                <div class="row linea-festeros">
+                                        <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/cristina.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+                                        <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/juli.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+                                        <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/llorenç.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+
+                                </div>
+                                <div class="row linea-festeros">
+                                        <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/cristina.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+                                        <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/juli.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+                                        <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/llorenç.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+                                </div>
+                                <div class="row linea-festeros">
+                                        <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/cristina.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+                                        <div class="col-4 h-fest"><img src="/resources/Fotos Festeros/juli.JPG" class="img_fest w-90 h-100 mx-auto d-block" alt=""></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+
+
+
+                <div class="row page page-break page-container" v-for="(pagina, i) in pagines" :key="i">
+                    <div class="col-12 p-0 h-100">
+
+                        <div class="page-content">
+                            <div class="anunciant" :class="anunciant.css"  v-for="(anunciant, j) in pagina" :key="j">
+                                <img :src="anunciant.E" class="w-90 h-100 mx-auto d-block"  alt="anunciant">
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>

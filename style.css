@@ -33,20 +33,20 @@
 }
 
 .class-40 { 
-    height: calc(100vh / 4);
+    height: calc(97vh / 4);
     width: 100%;
     /* background-color: blue; */
 }
 .class-60 {
-    height: calc(100vh / 2);
+    height: calc(97vh / 2);
     /* background-color: red; */
 }
 .class-80 {
-    height: calc(100vh - (100vh / 4));
+    height: calc(97vh - (97vh / 4));
     /* background-color: green; */
 }
 .class-max {
-    height: 100vh;
+    height: 97vh;
     /* background-color: yellow; */
 }
 .anunciant {
@@ -58,25 +58,40 @@
 }
 
 .logo-primera-pagina{
-    height: 11vh;
-    margin-bottom: -2.5vh;
-    background-color: yellow;
+    height: 8vh;
+    margin-bottom: -1.5vh;
+    /* background-color: yellow; */
     
 }
 
 .img-primera-pg{
-    width: 60%;
+    width: 50%;
 }
 
  .texte-primera-pagina{
-     font-size: 2vh;
-     line-height : 2.3vh;
-    padding-left: 1.3rem;
-    height: 39vh;
-    background-color: teal;
+     
+     line-height : 2.1vh;
+     letter-spacing: 0.4vh;
+    padding-left: 2rem;
+    height: 42vh;
+    /* background-color: teal; */
+    font-family: "Open Sans";font-size: 25px; font-style: normal; font-variant: normal; font-weight: 700;
 } 
 
 .festeros-primera-pagina{
-    height: 50vh;
-    background-color: tomato;
+    padding-left: 2rem;
+    height: 48vh;
+    /* background-color: tomato; */
+}
+
+.img_fest{
+    width: 180px;
+    height: 50px !important;
+    border-radius: 1vh;
+}
+.h-fest{
+    height: 130px;
+}
+.linea-festeros{
+    margin-bottom: 15px;
 }
